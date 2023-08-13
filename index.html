@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> DoraCode | Profile</title>
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="circle1"></div>
+  <div class="circle2"></div>
+
+  <div class="wrapper">
+    <div class="card-wrapper">
+      <div>
+        <img src="./assets/profile-image.jpg" alt="user" />
+      </div>
+      <div class="user-name">
+        <h2>Mr Civil Boy</h2>
+      </div>
+      <div class="designation">
+        <h3>Founder, Dora Code</h3>
+      </div>
+      <div class="bottom-group">
+        <button onclick="openModal()" class="btn-share btn-card">
+          <i class="fa-solid fa-share"></i>
+          <div>Share my profile</div>
+        </button>
+
+        <button class="btn-follow btn-card">Follow me</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Component -->
+  <div class="modal">
+    <div class="modal-header">
+      <h1>Share My Profile</h1>
+      <div>
+        <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+      </div>
+    </div>
+
+
+    <div>
+
+      <h3>Cheak Out My Profile</h3>
+
+      
+      <div class="icon-container">
+        <a href="https://www.linkedin.com/in/suraj-patil-718453250/" class="icon" id="Linkedin">
+          <i class="fa-brands fa-linkedin"></i>
+                </a>
+        <a href="https://leetcode.com/Suraj_Patil110/" class="icon" id="Leetcode">
+          <i class="fa-solid fa-code"></i>
+        </a>
+        <a href="https://twitter.com/1849Patil" class="icon" id="twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.hackerrank.com/surajpatil110110?hr_r=1" class="icon" id="HackerRank">
+          <i class="fa-brands fa-hackerrank"></i>
+        </a>
+       
+        <a href="https://github.com/suraj1849" class="icon" id="Github">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay" onclick="closeModal()"></div>
+
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
