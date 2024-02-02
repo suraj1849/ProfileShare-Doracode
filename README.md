@@ -16,3 +16,5 @@ git clone https://github.com/suraj1849/ProfileShare-Doracode.git
 Navigate to the project directory:
 cd ProfileShare-Doracode
 
+Install dependencies:
+
