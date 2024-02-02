@@ -9,12 +9,5 @@ Easy Navigation: Navigate through your profiles conveniently using the intuitive
 Profile Details: View details of each profile directly within the application.
 Customization: Customize the appearance and structure of your profile tree according to your preferences.
 Secure: Your profile data is securely stored and accessible only to you.
-# Installation 🛠️
-Clone the repository:
-git clone https://github.com/suraj1849/ProfileShare-Doracode.git
 
-Navigate to the project directory:
-cd ProfileShare-Doracode
-
-Install dependencies:
 
