@@ -10,4 +10,11 @@ Profile Details: View details of each profile directly within the application.
 Customization: Customize the appearance and structure of your profile tree according to your preferences.
 Secure: Your profile data is securely stored and accessible only to you.
 
+# Contributing 🤝
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
+Fork the repository.
+Create a new branch for your feature: git checkout -b feature-name.
+Commit your changes: git commit -m 'Add some feature'.
+Push to the branch: git push origin feature-name.
+Submit a pull request.
