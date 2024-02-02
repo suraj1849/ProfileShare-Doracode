@@ -11,3 +11,4 @@ Customization: Customize the appearance and structure of your profile tree accor
 Secure: Your profile data is securely stored and accessible only to you.
 # Installation 🛠️
 git clone https://github.com/suraj1849/ProfileShare-Doracode.git
+Navigate to the project directory:
