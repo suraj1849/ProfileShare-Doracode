@@ -271,4 +271,7 @@
     .user-name h2 {
       font-size: 1.3rem;
     }
-  
+    .modal {
+      width: 80vw;
+    }
+  }
