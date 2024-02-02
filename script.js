@@ -1,5 +1,4 @@
-const modal = document.querySelector(".modal");
-const overlay = document.querySelector(".overlay");
+
 
 //   Modal open function
 const openModal = () => {
